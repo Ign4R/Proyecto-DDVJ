@@ -185,11 +185,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5505836688780828258, guid: 8b094cb9bf0b7f848a6aeece8580b467, type: 3}
   m_PrefabInstance: {fileID: 22837729}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &45257812 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4704223654990646350, guid: eca84d363907d384bbef61ddae9f8067, type: 3}
-  m_PrefabInstance: {fileID: 4704223654945724442}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &47334113
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,36 +978,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &840000124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 840000125}
-  m_Layer: 3
-  m_Name: ShootingPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &840000125
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840000124}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.68, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 45257812}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &871436962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1423084223}
   m_Layer: 0
-  m_Name: Asteroids
+  m_Name: AsteroidsPlanet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
